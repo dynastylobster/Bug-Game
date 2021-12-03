@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-speed = dir * global.paused;
+if global.paused {
+	alarm[0]++
+	speed = 0;
+	} else speed = dir;

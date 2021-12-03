@@ -30,11 +30,19 @@ if TryingToMove {
 		x += XSpeed
 		y += YSpeed
 		}
+		if !place_meeting(x,y,WaterObject) {
 		if MoveSpeed > NormalMoveSpeed then MoveSpeed -= Acceleration;
 		if XSpeed > 0 then XSpeed -= Acceleration;
 		if XSpeed < 0 then XSpeed += Acceleration;
 		if YSpeed > 0 then YSpeed -= Acceleration;
 		if YSpeed < 0 then YSpeed += Acceleration;
+		} else {
+		if MoveSpeed > NormalMoveSpeed then MoveSpeed -= Acceleration/4;
+		if XSpeed > 0 then XSpeed -= Acceleration/4;
+		if XSpeed < 0 then XSpeed += Acceleration/4;
+		if YSpeed > 0 then YSpeed -= Acceleration/4;
+		if YSpeed < 0 then YSpeed += Acceleration/4;
+		}
 		
 	}
 //prevents wrong way twitching
