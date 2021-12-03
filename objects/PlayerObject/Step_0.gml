@@ -27,18 +27,37 @@ if global.paused = false {
 			var down = global.key_down;
 		
 			// setting move speed
-			if left then x_speed = -move_speed;
-			if right then x_speed = move_speed;
-			if up then y_speed = -move_speed;
-			if down then y_speed = move_speed;
+			if Hit = false {
+				if left {
+				if x_speed >= -normal_move_speed then x_speed -= acceleration
+				}
+				if right {
+				if x_speed <= normal_move_speed then x_speed += acceleration
+				}
+				if up {
+				if y_speed >= -normal_move_speed then y_speed -= acceleration
+				}
+				if down {
+				if y_speed <= normal_move_speed then y_speed += acceleration
+				}
+			}
 
 			// Natural deceleration
+				if Hit = false {
+				if !place_meeting(x,y,WaterObject) fuck_move = normal_fuck_move else fuck_move = water_fuck_move;
+			} else fuck_move = water_fuck_move;
+			
 			x_speed *= fuck_move;
 			y_speed *= fuck_move;
 		
 			// fuck yeah i love thtndfska
-			x += x_speed;
-			y += y_speed;
+		if !place_meeting(x+x_speed,y,WallObject) {
+			x+=x_speed
+		}
+
+		if !place_meeting(x,y+y_speed,WallObject) {
+			y+=y_speed
+		}
 		}
 	}
 

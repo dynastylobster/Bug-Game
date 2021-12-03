@@ -13,10 +13,10 @@ function HitPlayer(){
 		}
 	}
 	if PlayerObject.Hit = true {
-		if PlayerObject.x > x+8 {PlayerObject.XSpeed = 3}
-		if PlayerObject.x < x-8 {PlayerObject.XSpeed = -3}
-		if PlayerObject.y > y+8 {PlayerObject.YSpeed = 3}
-		if PlayerObject.y < y-8 {PlayerObject.YSpeed = -3}
+		if PlayerObject.x > x+8 {PlayerObject.x_speed = 3}
+		if PlayerObject.x < x-8 {PlayerObject.x_speed = -3}
+		if PlayerObject.y > y+8 {PlayerObject.y_speed = 3}
+		if PlayerObject.y < y-8 {PlayerObject.y_speed = -3}
 		global.key_right = false;
 		global.key_left = false;
 		global.key_up = false;

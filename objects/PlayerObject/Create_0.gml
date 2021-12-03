@@ -16,10 +16,12 @@ TryingToMove = false;
 x_speed = 0;
 y_speed = 0;
 
-normal_move_speed = 1.93;
+normal_move_speed = 1.8;
 move_speed = normal_move_speed;
-
-fuck_move = 0.86;
+acceleration = 0.5;
+normal_fuck_move = 0.9;
+fuck_move = normal_fuck_move;
+water_fuck_move = 0.95;
 
 Hit = false
 HP = 3;
