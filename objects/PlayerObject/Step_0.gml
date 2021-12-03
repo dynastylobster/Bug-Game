@@ -7,10 +7,12 @@ if global.paused = false {
 	if age > 65536 then age = 0;
 	
 	{ // Bug Angle
-		if !TryingToMove then DrawAngle = direction else DrawAngle = lerp(DrawAngle, direction + AddAngle, 0.4);
+		//if !TryingToMove then DrawAngle = direction else DrawAngle = direction + AddAngle;
 		direction = point_direction(x,y,mouse_x,mouse_y);
 		Age += 1;
-		AddAngle = 0 + sin(Age / 4) * 24;
+		
+		if !TryingToMove then AddAngle = 0 else AddAngle = 0 + sin(Age / 4) * 24;
+		DrawAngle = lerp(direction,direction + AddAngle,0.5);
 	}
 	
 	{ // Player Movement
