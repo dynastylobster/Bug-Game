@@ -16,7 +16,7 @@ TryingToMove = false;
 x_speed = 0;
 y_speed = 0;
 
-normal_move_speed = 1.8;
+normal_move_speed = 2;
 move_speed = normal_move_speed;
 acceleration = 0.5;
 normal_fuck_move = 0.9;
