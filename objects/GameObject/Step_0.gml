@@ -26,3 +26,9 @@ global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_presse
 	}
 	
 if keyboard_check_pressed(ord("R")) then room_restart();
+
+if global.key_start {
+if global.paused {
+	global.paused = false
+	} else {global.paused = true}
+}

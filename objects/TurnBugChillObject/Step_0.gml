@@ -5,3 +5,6 @@
 event_inherited();
 
 image_angle = direction;
+
+if global.paused = true then speed = 0;
+if global.paused = false then speed = 1;

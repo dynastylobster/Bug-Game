@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if global.paused = false {
+	
 age+= 0.5;
 if age > 65536 then age = 0;
 if !TryingToMove {
@@ -134,3 +137,5 @@ if place_meeting(x,y,OnBlockObject) or place_meeting(x,y,OffBlockObject) {
 	x = SafeX;
 	y = SafeY;
 	}
+	
+}

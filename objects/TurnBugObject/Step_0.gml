@@ -6,3 +6,6 @@ event_inherited();
 
 image_angle+= rotspeed;
 direction = image_angle;
+
+if global.paused = true then speed = 0;
+if global.paused = false then speed = 1;

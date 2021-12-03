@@ -18,3 +18,6 @@ if instance_place(x,y,WallObject) {
 	if y < Wall.y y--
 	}
 }
+
+if global.paused = true then speed = 0;
+if global.paused = false then speed = 3;

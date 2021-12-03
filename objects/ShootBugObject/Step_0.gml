@@ -18,3 +18,7 @@ if HP = 0 {
 	audio_play_sound(EnemyHitSound,0,0);
 	instance_destroy();
 	}
+	
+if global.paused {
+	alarm[0] ++
+	}

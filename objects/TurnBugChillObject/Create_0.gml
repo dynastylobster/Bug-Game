@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-speed = -.5
+speed = 1;
 image_speed = 0;
 Collided = false;
 rotspeed = 2;
