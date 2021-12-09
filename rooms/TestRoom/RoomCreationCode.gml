@@ -1,0 +1,1 @@
+global.on = true;
