@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.69,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "SoundMusic1.ogg",
-  "duration": 25.8461456,
+  "duration": 44.3076859,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
