@@ -38,3 +38,6 @@ global.textbox[0] = "";
 global.textbox[1] = "";
 global.textbox[2] = "";
 global.textbox[3] = "";
+global.textbox[4] = "";
+global.textbox[5] = "";
+global.textbox[6] = "";
