@@ -26,10 +26,8 @@ if global.show_textbox {
 	draw_set_font(Font1);
 	draw_sprite(TextBoxSprite,0,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+155);
 	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+163,string(global.textbox[0]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+172,string(global.textbox[1]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+181,string(global.textbox[2]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+190,string(global.textbox[3]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+199,string(global.textbox[4]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+208,string(global.textbox[5]))
-	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+217,string(global.textbox[6]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+176,string(global.textbox[1]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+189,string(global.textbox[2]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+202,string(global.textbox[3]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+215,string(global.textbox[4]))
 }
