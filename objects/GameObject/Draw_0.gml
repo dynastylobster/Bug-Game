@@ -21,3 +21,12 @@ if global.paused {
 	}
 draw_set_color(c_white);
 draw_set_alpha(1);
+
+if global.show_textbox {
+	draw_set_font(Font1);
+	draw_sprite(TextBoxSprite,0,camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0])+155);
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+163,string(global.textbox[0]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+172,string(global.textbox[1]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+181,string(global.textbox[2]))
+	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+190,string(global.textbox[3]))
+	}

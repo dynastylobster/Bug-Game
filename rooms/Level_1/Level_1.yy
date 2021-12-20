@@ -91,6 +91,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"AmmoBeetleDirectorObject","path":"objects/AmmoBeetleDirectorObject/AmmoBeetleDirectorObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":160.0,"resourceVersion":"1.0","name":"inst_93FE825","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"AngerBugObject","path":"objects/AngerBugObject/AngerBugObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":64.0,"resourceVersion":"1.0","name":"inst_53F2F5F7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"SideBugObject","path":"objects/SideBugObject/SideBugObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":80.0,"resourceVersion":"1.0","name":"inst_66AF6A1A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"SignObject","path":"objects/SignObject/SignObject.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":192.0,"resourceVersion":"1.0","name":"inst_7BF53361","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"DirtTileset","path":"tilesets/DirtTileset/DirtTileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":80,"SerialiseHeight":15,"TileSerialiseData":[
 10,10,10,10,10,14,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,7,10,10,10,10,10,14,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,14,10,10,10,10,10,10,10,10,10,10,10,10,10,10,14,10,10,10,7,10,10,10,10,10,10,10,10,10,14,10,10,10,10,10,
@@ -207,6 +208,7 @@
     {"name":"inst_93FE825","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_53F2F5F7","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_66AF6A1A","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_7BF53361","path":"rooms/Level_1/Level_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

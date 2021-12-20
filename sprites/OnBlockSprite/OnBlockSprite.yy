@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Generic Level Sprites",
+    "path": "folders/Sprites/Generic Level Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "OnBlockSprite",

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 425,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 84,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 426,
+  "height": 85,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dc13885f-9ac5-4abe-ad4f-979ee496f1e4","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc13885f-9ac5-4abe-ad4f-979ee496f1e4","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},"LayerId":{"name":"ba056628-959c-4403-830d-6cca698c5413","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"EnemyAreaSprite","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},"resourceVersion":"1.0","name":"dc13885f-9ac5-4abe-ad4f-979ee496f1e4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"822d1381-271a-445d-b873-aa489f70029d","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"822d1381-271a-445d-b873-aa489f70029d","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"LayerId":{"name":"d8264cac-99c2-4149-bde1-a0d33f980ec6","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"TextBoxSprite","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"resourceVersion":"1.0","name":"822d1381-271a-445d-b873-aa489f70029d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"EnemyAreaSprite","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},
+    "spriteId": {"name":"TextBoxSprite","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b3df4ab7-459e-4ec7-8c9c-06803846fa0f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc13885f-9ac5-4abe-ad4f-979ee496f1e4","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2043071e-8900-44d5-bdde-5e74227698b1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"822d1381-271a-445d-b873-aa489f70029d","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"EnemyAreaSprite","path":"sprites/EnemyAreaSprite/EnemyAreaSprite.yy",},
+    "parent": {"name":"TextBoxSprite","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "EnemyAreaSprite",
+    "name": "TextBoxSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ba056628-959c-4403-830d-6cca698c5413","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d8264cac-99c2-4149-bde1-a0d33f980ec6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Generic Level Sprites",
-    "path": "folders/Sprites/Generic Level Sprites.yy",
+    "name": "HUD",
+    "path": "folders/Sprites/HUD.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EnemyAreaSprite",
+  "name": "TextBoxSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }

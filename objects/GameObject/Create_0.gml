@@ -31,3 +31,10 @@ global.key_start = keyboard_check_pressed(vk_enter)+ gamepad_button_check_presse
 window_size = 2
 //onoff switch
 global.on = true;
+
+//textbox
+global.show_textbox = false;
+global.textbox[0] = "";
+global.textbox[1] = "";
+global.textbox[2] = "";
+global.textbox[3] = "";
