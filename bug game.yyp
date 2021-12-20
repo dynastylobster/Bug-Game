@@ -106,6 +106,7 @@
     {"id":{"name":"IceTileset","path":"tilesets/IceTileset/IceTileset.yy",},"order":5,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"SpikeSprite","path":"sprites/SpikeSprite/SpikeSprite.yy",},"order":10,},
+    {"id":{"name":"SignReadSound","path":"sounds/SignReadSound/SignReadSound.yy",},"order":11,},
     {"id":{"name":"SparkleParticleObject","path":"objects/SparkleParticleObject/SparkleParticleObject.yy",},"order":7,},
     {"id":{"name":"PlayerSheildSprite","path":"sprites/PlayerSheildSprite/PlayerSheildSprite.yy",},"order":3,},
     {"id":{"name":"EnemyHitSound","path":"sounds/EnemyHitSound/EnemyHitSound.yy",},"order":5,},

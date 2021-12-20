@@ -9,5 +9,6 @@ global.textbox[3] = text[3];
 global.textbox[4] = text[4];
 
 if global.show_textbox = false {
+audio_play_sound(SignReadSound,0,0);
 global.show_textbox = true
 } else global.show_textbox = false;
