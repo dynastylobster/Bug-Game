@@ -91,6 +91,7 @@
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},"order":0,},
     {"id":{"name":"SpikeStickSprite","path":"sprites/SpikeStickSprite/SpikeStickSprite.yy",},"order":16,},
     {"id":{"name":"WaterObject","path":"objects/WaterObject/WaterObject.yy",},"order":11,},
+    {"id":{"name":"CaveBackGroundSprite","path":"sprites/CaveBackGroundSprite/CaveBackGroundSprite.yy",},"order":2,},
     {"id":{"name":"CaveTileSet","path":"tilesets/CaveTileSet/CaveTileSet.yy",},"order":9,},
     {"id":{"name":"TextBoxSprite","path":"sprites/TextBoxSprite/TextBoxSprite.yy",},"order":2,},
     {"id":{"name":"OffBlockSprite","path":"sprites/OffBlockSprite/OffBlockSprite.yy",},"order":7,},
