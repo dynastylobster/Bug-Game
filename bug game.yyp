@@ -24,6 +24,7 @@
     {"id":{"name":"AppleItemObject","path":"objects/AppleItemObject/AppleItemObject.yy",},"order":2,},
     {"id":{"name":"WaterSprite","path":"sprites/WaterSprite/WaterSprite.yy",},"order":12,},
     {"id":{"name":"OnOffSwitchBlock","path":"sprites/OnOffSwitchBlock/OnOffSwitchBlock.yy",},"order":9,},
+    {"id":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},"order":3,},
     {"id":{"name":"LockBugObject","path":"objects/LockBugObject/LockBugObject.yy",},"order":1,},
     {"id":{"name":"EnemyOnlyBlockSprite","path":"sprites/EnemyOnlyBlockSprite/EnemyOnlyBlockSprite.yy",},"order":4,},
     {"id":{"name":"SignSprite","path":"sprites/SignSprite/SignSprite.yy",},"order":13,},
@@ -81,7 +82,7 @@
     {"id":{"name":"AngerBugSpriteAngry","path":"sprites/AngerBugSpriteAngry/AngerBugSpriteAngry.yy",},"order":7,},
     {"id":{"name":"AmmoBeetleSprite","path":"sprites/AmmoBeetleSprite/AmmoBeetleSprite.yy",},"order":0,},
     {"id":{"name":"OnBlockObject","path":"objects/OnBlockObject/OnBlockObject.yy",},"order":3,},
-    {"id":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},"order":2,},
+    {"id":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},"order":2,},
     {"id":{"name":"TurnBugSprite","path":"sprites/TurnBugSprite/TurnBugSprite.yy",},"order":4,},
     {"id":{"name":"IceTileSprite","path":"sprites/IceTileSprite/IceTileSprite.yy",},"order":4,},
     {"id":{"name":"SideBugObject","path":"objects/SideBugObject/SideBugObject.yy",},"order":0,},
@@ -133,8 +134,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},},
-    {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
+    {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
