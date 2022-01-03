@@ -1,0 +1,5 @@
+text[0] = "It is said that the 'great green orb' is what brings"
+text[1] = "misery and sadness to our people. but unfortunately,"
+text[2] = "we do not have the power to get rid of it."
+text[3] = ""
+text[4] = ""
