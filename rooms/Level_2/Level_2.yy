@@ -73,6 +73,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"AmmoBeetleDirectorObject","path":"objects/AmmoBeetleDirectorObject/AmmoBeetleDirectorObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":160.0,"resourceVersion":"1.0","name":"inst_3716DC0E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"AmmoBeetleDirectorObject","path":"objects/AmmoBeetleDirectorObject/AmmoBeetleDirectorObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":192.0,"resourceVersion":"1.0","name":"inst_61EABD44","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"AmmoBeetleDirectorObject","path":"objects/AmmoBeetleDirectorObject/AmmoBeetleDirectorObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":176.0,"resourceVersion":"1.0","name":"inst_2E9D26D5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"NPCObject","path":"objects/NPCObject/NPCObject.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":144.0,"resourceVersion":"1.0","name":"inst_74028A5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"NPCObject","path":"objects/NPCObject/NPCObject.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":0.6,"scaleY":0.6,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":112.0,"resourceVersion":"1.0","name":"inst_7AB489EC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"CaveTileSet","path":"tilesets/CaveTileSet/CaveTileSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":80,"SerialiseHeight":15,"TileSerialiseData":[
 11,11,11,11,11,11,11,11,11,11,11,11,11,8,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,8,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,
@@ -171,6 +173,8 @@
     {"name":"inst_3716DC0E","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_61EABD44","path":"rooms/Level_2/Level_2.yy",},
     {"name":"inst_2E9D26D5","path":"rooms/Level_2/Level_2.yy",},
+    {"name":"inst_74028A5","path":"rooms/Level_2/Level_2.yy",},
+    {"name":"inst_7AB489EC","path":"rooms/Level_2/Level_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

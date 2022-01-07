@@ -1,0 +1,5 @@
+text[0] = "People say the great green orb is why we must"
+text[1] = "retrace our steps all the time"
+text[2] = ""
+text[3] = ""
+text[4] = ""

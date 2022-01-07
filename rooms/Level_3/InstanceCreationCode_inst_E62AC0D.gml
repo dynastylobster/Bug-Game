@@ -1,0 +1,5 @@
+text[0] = "The great green orb brings suffering"
+text[1] = "But I like to deal with it by eating flowers."
+text[2] = ""
+text[3] = ""
+text[4] = ""
