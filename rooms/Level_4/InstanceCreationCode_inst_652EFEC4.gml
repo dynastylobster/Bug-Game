@@ -1,0 +1,5 @@
+text[0] = "Come to think of it, the great green orb has so many"
+text[1] = "problems... And you are so strong... maybe you could"
+text[2] = "destroy it for us?"
+text[3] = ""
+text[4] = ""
