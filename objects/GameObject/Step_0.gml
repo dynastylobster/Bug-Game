@@ -32,3 +32,7 @@ if global.paused {
 	global.paused = false
 	} else {global.paused = true}
 }
+
+if global.paused {
+	if audio_is_playing(global.music) then audio_pause_sound(global.music);
+	} else audio_resume_sound(global.music);

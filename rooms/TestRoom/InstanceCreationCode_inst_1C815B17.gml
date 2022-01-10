@@ -1,0 +1,5 @@
+text[0] = "this is a test room not a level"
+text[1] = ""
+text[2] = ""
+text[3] = ""
+text[4] = ""

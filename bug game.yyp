@@ -36,6 +36,7 @@
     {"id":{"name":"SheildSound","path":"sounds/SheildSound/SheildSound.yy",},"order":9,},
     {"id":{"name":"EnemyAreaObject","path":"objects/EnemyAreaObject/EnemyAreaObject.yy",},"order":13,},
     {"id":{"name":"LevelEndSprite","path":"sprites/LevelEndSprite/LevelEndSprite.yy",},"order":5,},
+    {"id":{"name":"SoundMusic2","path":"sounds/SoundMusic2/SoundMusic2.yy",},"order":12,},
     {"id":{"name":"SpikeObject","path":"objects/SpikeObject/SpikeObject.yy",},"order":5,},
     {"id":{"name":"PlayerHitSprite","path":"sprites/PlayerHitSprite/PlayerHitSprite.yy",},"order":2,},
     {"id":{"name":"OnOffSound","path":"sounds/OnOffSound/OnOffSound.yy",},"order":8,},
