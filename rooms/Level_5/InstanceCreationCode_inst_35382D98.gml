@@ -1,0 +1,5 @@
+text[0]="Even though the orb sucks, there is one who guards it."
+text[1]="One who actually likes the orb for whatever reason."
+text[2]="They only make it harder to destroy the orb."
+text[3]=""
+text[4]=""

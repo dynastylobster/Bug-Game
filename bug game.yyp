@@ -80,6 +80,7 @@
     {"id":{"name":"RedAmmoBeetleSprite","path":"sprites/RedAmmoBeetleSprite/RedAmmoBeetleSprite.yy",},"order":2,},
     {"id":{"name":"HitPlayer","path":"scripts/HitPlayer/HitPlayer.yy",},"order":1,},
     {"id":{"name":"CaveTileSprite","path":"sprites/CaveTileSprite/CaveTileSprite.yy",},"order":8,},
+    {"id":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},"order":5,},
     {"id":{"name":"AngerBugSpriteAngry","path":"sprites/AngerBugSpriteAngry/AngerBugSpriteAngry.yy",},"order":7,},
     {"id":{"name":"AmmoBeetleSprite","path":"sprites/AmmoBeetleSprite/AmmoBeetleSprite.yy",},"order":0,},
     {"id":{"name":"Level_1","path":"rooms/Level_1/Level_1.yy",},"order":4,},
@@ -141,6 +142,7 @@
     {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
