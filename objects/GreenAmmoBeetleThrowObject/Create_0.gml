@@ -2,6 +2,8 @@
 // You can write your code in this editor
 RotSpeed = 25;
 DrawAngle = 0;
+bounced = false;
+normal = noone;
 if instance_exists(PlayerObject) {
 	audio_play_sound(BeetleThrowSound,0,0);
 	direction = PlayerObject.direction;
