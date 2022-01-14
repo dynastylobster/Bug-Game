@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"ExplodeSound","path":"sounds/ExplodeSound/ExplodeSound.yy",},"order":0,},
+    {"id":{"name":"BounceBeetleSound","path":"sounds/BounceBeetleSound/BounceBeetleSound.yy",},"order":13,},
     {"id":{"name":"KeyBugCollectObject","path":"objects/KeyBugCollectObject/KeyBugCollectObject.yy",},"order":3,},
     {"id":{"name":"PlayerHoldSprite","path":"sprites/PlayerHoldSprite/PlayerHoldSprite.yy",},"order":1,},
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},"order":1,},
@@ -74,6 +75,7 @@
     {"id":{"name":"CrateSprite","path":"sprites/CrateSprite/CrateSprite.yy",},"order":1,},
     {"id":{"name":"SoundMusic1","path":"sounds/SoundMusic1/SoundMusic1.yy",},"order":10,},
     {"id":{"name":"ExplodeSprite","path":"sprites/ExplodeSprite/ExplodeSprite.yy",},"order":5,},
+    {"id":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},"order":6,},
     {"id":{"name":"OffBlockObject","path":"objects/OffBlockObject/OffBlockObject.yy",},"order":2,},
     {"id":{"name":"ShootBugSprite","path":"sprites/ShootBugSprite/ShootBugSprite.yy",},"order":1,},
     {"id":{"name":"SparkleParticleSprite","path":"sprites/SparkleParticleSprite/SparkleParticleSprite.yy",},"order":14,},
@@ -149,8 +151,9 @@
     {"roomId":{"name":"Level_2","path":"rooms/Level_2/Level_2.yy",},},
     {"roomId":{"name":"Level_3","path":"rooms/Level_3/Level_3.yy",},},
     {"roomId":{"name":"Level_4","path":"rooms/Level_4/Level_4.yy",},},
-    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},},
+    {"roomId":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},},
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

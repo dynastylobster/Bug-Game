@@ -36,3 +36,14 @@ ParticleBoom(x,y);
 instance_create_layer(x,y,layer,ExplodeObject)
 instance_destroy();
 }
+if place_meeting(x+speed+3,y+speed+3,OnOffSwitchObject) or place_meeting(x-speed-3,y-speed-3,OnOffSwitchObject) {
+speed = 0;
+ParticleBoom(x,y);
+instance_create_layer(x,y,layer,ExplodeObject)
+instance_destroy();
+}
+
+if alarm[1] = 3 {
+	audio_play_sound(BounceBeetleSound,0,0);
+	SparkleParticleBoom(x,y);
+	}

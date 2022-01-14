@@ -1,0 +1,5 @@
+text[0]="I am hiding from the great green orb, by"
+text[1]="being in this small place, I cannot see the largeness"
+text[2]="of my own perception, and the influence of forces that have"
+text[3]="not yet been stopped."
+text[4]=""
