@@ -5,6 +5,7 @@ draw_self()
 draw_text(0,0,string(window_size))
 gpu_set_tex_filter(false);
 
+if room != Title_Screen {
 if instance_exists(PlayerObject) {
 	draw_sprite(PlayerHPSprite,PlayerObject.HP,camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+4)
 	if PlayerObject.Hit = true {
@@ -13,6 +14,7 @@ if instance_exists(PlayerObject) {
 			}
 		}
 	}
+}
 	
 if global.paused {
 	draw_set_color(c_black);
