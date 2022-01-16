@@ -67,6 +67,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":17.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":720.0,"y":176.0,"resourceVersion":"1.0","name":"inst_520951A0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":64.0,"resourceVersion":"1.0","name":"inst_7B40B765","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"LevelEndObject","path":"objects/LevelEndObject/LevelEndObject.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":112.0,"resourceVersion":"1.0","name":"inst_3E6F24CD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"BounceBallObject","path":"objects/BounceBallObject/BounceBallObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":160.0,"resourceVersion":"1.0","name":"inst_278056C7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"DirtTileset","path":"tilesets/DirtTileset/DirtTileset.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":62,"SerialiseHeight":15,"TileSerialiseData":[
 10,10,10,10,10,10,10,10,10,10,10,7,10,10,10,10,10,10,10,7,10,10,10,10,7,10,10,10,10,7,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,7,10,10,10,10,10,10,10,10,10,7,10,10,10,10,10,
@@ -160,6 +161,7 @@
     {"name":"inst_520951A0","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_7B40B765","path":"rooms/Level_1/Level_1.yy",},
     {"name":"inst_3E6F24CD","path":"rooms/Level_1/Level_1.yy",},
+    {"name":"inst_278056C7","path":"rooms/Level_1/Level_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

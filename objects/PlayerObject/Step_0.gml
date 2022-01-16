@@ -29,7 +29,7 @@ if global.paused = false {
 			var down = global.key_down;
 		
 			// setting move speed
-			if Hit = false {
+			if Hit = false and bounced = false {
 				if left {
 				if x_speed >= -normal_move_speed then x_speed -= acceleration
 				}
@@ -45,7 +45,7 @@ if global.paused = false {
 			}
 
 			// Natural deceleration
-				if Hit = false {
+				if Hit = false and bounced = false {
 				if !place_meeting(x,y,WaterObject) fuck_move = normal_fuck_move else fuck_move = water_fuck_move;
 			} else fuck_move = water_fuck_move;
 			

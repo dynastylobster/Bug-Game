@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 age = 0;
-
+bounced = false;
 camera_x = clamp(x-213,0,room_width-426)
 camera_y = clamp(y-120,0,room_height-240)
 
