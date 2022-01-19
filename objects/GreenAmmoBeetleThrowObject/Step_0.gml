@@ -2,33 +2,24 @@
 // You can write your code in this editor
 DrawAngle -= RotSpeed;
 
-if global.paused = true then speed = 0;
-if global.paused = false then speed = 3;
+if global.paused = false {
+	x+= x_speed;
+	y+= y_speed;
+	};
+	
 
-if place_meeting(x+(speed+3),y,WallObject) {
-	normal = 180;
+if place_meeting(x,y+y_speed,WallObject) {
+	while !place_meeting(x,y+sign(y_speed),WallObject) {y+=0.25 *sign(y_speed)}
+	y_speed *= -1;
+	bounced = true;
+	alarm[1] = 6;
 	}
-if place_meeting(x-(speed+3),y,WallObject) {
-	normal = 0;
+if place_meeting(x+x_speed,y,WallObject) {
+	while !place_meeting(x+sign(x_speed),y,WallObject) {x+=0.25 *sign(x_speed)}
+	x_speed *= -1;
+	bounced = true;
+	alarm[1] = 6;
 	}
-if place_meeting(x,y-(speed+3),WallObject) {
-	normal = 270;
-	}
-if place_meeting(x,y+(speed+3),WallObject) {
-	normal = 90;
-	}
-
-if normal !=noone {
-	if place_meeting(x,y,WallObject) {
-			if bounced = false {
-				direction = normal+direction;
-				speed = 3;
-				alarm[1] = 6;
-				bounced = true;
-	}
-				
-			}
-}
 
 if place_meeting(x+speed+3,y+speed+3,CrateObject) or place_meeting(x-speed-3,y-speed-3,CrateObject) {
 speed = 0;

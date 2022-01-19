@@ -11,3 +11,6 @@ if instance_exists(PlayerObject) {
 previous_direction = direction;
 speed = 3;
 alarm[0] = 360;
+x_speed = lengthdir_x(speed,direction);
+y_speed = lengthdir_y(speed,direction);
+speed = 0;
