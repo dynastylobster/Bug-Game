@@ -29,13 +29,13 @@ if place_meeting(x+x_speed,y,WallObject) {
 	alarm[1] = 6;
 	}
 
-if place_meeting(x+speed+3,y+speed+3,CrateObject) or place_meeting(x-speed-3,y-speed-3,CrateObject) {
+if place_meeting(x+(x_speed*2),y+(y_speed*2),CrateObject) {
 speed = 0;
 ParticleBoom(x,y);
 instance_create_layer(x,y,layer,ExplodeObject)
 instance_destroy();
 }
-if place_meeting(x+speed+3,y+speed+3,OnOffSwitchObject) or place_meeting(x-speed-3,y-speed-3,OnOffSwitchObject) {
+if place_meeting(x+(x_speed*2),y+(y_speed*2),OnOffSwitchObject){
 speed = 0;
 ParticleBoom(x,y);
 instance_create_layer(x,y,layer,ExplodeObject)
