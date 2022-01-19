@@ -2,6 +2,14 @@
 // You can write your code in this editor
 DrawAngle -= RotSpeed;
 
+age += 1;
+if age > 2048 then age = 0;
+if alarm[2] > 1 {
+	scale = 1+(sin(age))/4;
+	}
+if alarm[2] = 1 then scale = 1;
+
+
 if global.paused = false {
 	x+= x_speed;
 	y+= y_speed;
@@ -37,4 +45,7 @@ instance_destroy();
 if alarm[1] = 3 {
 	audio_play_sound(BounceBeetleSound,0,0);
 	SparkleParticleBoom(x,y);
+	}
+if alarm[1] = 6 {
+	alarm[2] = 20;
 	}
