@@ -13,9 +13,9 @@
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
   ],
   "layers": [
-    {"depth":-100,"assets":[
+    {"assets":[
         {"spriteId":{"name":"TitleSprite","path":"sprites/TitleSprite/TitleSprite.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":16.0,"resourceVersion":"1.0","name":"graphic_3E91BC5A","tags":[],"resourceType":"GMRSpriteGraphic",},
-      ],"visible":true,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"TitleLayer","tags":[],"resourceType":"GMRAssetLayer",},
+      ],"visible":true,"depth":-100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"TitleLayer","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"GameObject","path":"objects/GameObject/GameObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":true,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_7DD3A3A8_1_3_1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":true,"resourceVersion":"1.0","name":"GameObjectLayer","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -29,6 +29,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":26.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":224.0,"resourceVersion":"1.0","name":"inst_61DCB80C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"WallObject","path":"objects/WallObject/WallObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":13.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":16.0,"resourceVersion":"1.0","name":"inst_71BCB785","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"MouseObject","path":"objects/MouseObject/MouseObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2FB78190","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"TitleScreenTextObject","path":"objects/TitleScreenTextObject/TitleScreenTextObject.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":64.0,"resourceVersion":"1.0","name":"inst_EC7FAF3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"CaveTileSet","path":"tilesets/CaveTileSet/CaveTileSet.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":27,"SerialiseHeight":15,"TileSerialiseData":[
 5,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,6,
@@ -80,6 +81,7 @@
     {"name":"inst_61DCB80C","path":"rooms/Title_Screen/Title_Screen.yy",},
     {"name":"inst_71BCB785","path":"rooms/Title_Screen/Title_Screen.yy",},
     {"name":"inst_2FB78190","path":"rooms/Title_Screen/Title_Screen.yy",},
+    {"name":"inst_EC7FAF3","path":"rooms/Title_Screen/Title_Screen.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

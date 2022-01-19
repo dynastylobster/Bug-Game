@@ -4,8 +4,8 @@ event_inherited();
 if hit = false {
 	
 if alarm[0] = 30 image_index = 1;
-if alarm[0] > 50 image_index = 2;
-if alarm[0] > 30 and alarm[0] <=50 then image_index = 0;
+if alarm[0] > 100 image_index = 2;
+if alarm[0] > 30 and alarm[0] <=100 then image_index = 0;
 
 }
 
