@@ -10,10 +10,7 @@
     "path": "sprites/KeyBugSprite/KeyBugSprite.yy",
   },
   "persistent": false,
-  "parentObjectId": {
-    "name": "AmmoBeetleThrowObject",
-    "path": "objects/AmmoBeetleThrowObject/AmmoBeetleThrowObject.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
