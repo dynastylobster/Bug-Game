@@ -1,7 +1,7 @@
 global.music = SoundMusic1;
 global.paused = false;
+faded = false;
 previous_music = global.music
-
 /// @description Set Up controls
 if !gamepad_is_connected(0) {
 global.key_Z = keyboard_check(ord("Z"));

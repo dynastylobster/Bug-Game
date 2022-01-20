@@ -90,6 +90,7 @@
     {"id":{"name":"SparkleParticleSprite","path":"sprites/SparkleParticleSprite/SparkleParticleSprite.yy",},"order":14,},
     {"id":{"name":"ShootBugRedSprite","path":"sprites/ShootBugRedSprite/ShootBugRedSprite.yy",},"order":9,},
     {"id":{"name":"WallSprite","path":"sprites/WallSprite/WallSprite.yy",},"order":11,},
+    {"id":{"name":"BlackSprite","path":"sprites/BlackSprite/BlackSprite.yy",},"order":4,},
     {"id":{"name":"BouncePlayer","path":"scripts/BouncePlayer/BouncePlayer.yy",},"order":3,},
     {"id":{"name":"AmmoBeetleHoldSprite","path":"sprites/AmmoBeetleHoldSprite/AmmoBeetleHoldSprite.yy",},"order":1,},
     {"id":{"name":"SpikeStickObject","path":"objects/SpikeStickObject/SpikeStickObject.yy",},"order":7,},

@@ -33,3 +33,7 @@ if global.show_textbox {
 	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+202,string(global.textbox[3]))
 	draw_text(camera_get_view_x(view_camera[0])+4,camera_get_view_y(view_camera[0])+215,string(global.textbox[4]))
 }
+
+if faded = false {
+	draw_sprite_ext(BlackSprite,0,0,0,room_width,room_height,0,c_white,0+(alarm[0]/10))
+	}

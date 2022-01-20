@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+faded = false;
+alarm[0] = 10;
 global.show_textbox = false;
 
 if global.music != previous_music {

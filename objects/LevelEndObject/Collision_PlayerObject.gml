@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(next_room);
+if used = false {
+	alarm[0] = 30;
+	used = true;
+	}
