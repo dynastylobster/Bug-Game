@@ -1,5 +1,6 @@
 global.music = SoundMusic1;
 global.paused = false;
+global.battle = false;
 faded = false;
 previous_music = global.music
 /// @description Set Up controls

@@ -95,6 +95,7 @@
     {"id":{"name":"AmmoBeetleHoldSprite","path":"sprites/AmmoBeetleHoldSprite/AmmoBeetleHoldSprite.yy",},"order":1,},
     {"id":{"name":"SpikeStickObject","path":"objects/SpikeStickObject/SpikeStickObject.yy",},"order":7,},
     {"id":{"name":"AppleItemSprite","path":"sprites/AppleItemSprite/AppleItemSprite.yy",},"order":0,},
+    {"id":{"name":"NewKeyThrowObject","path":"objects/NewKeyThrowObject/NewKeyThrowObject.yy",},"order":13,},
     {"id":{"name":"GreenBeetleBounceObject","path":"objects/GreenBeetleBounceObject/GreenBeetleBounceObject.yy",},"order":12,},
     {"id":{"name":"PlayerHPSprite","path":"sprites/PlayerHPSprite/PlayerHPSprite.yy",},"order":0,},
     {"id":{"name":"RedAmmoBeetleSprite","path":"sprites/RedAmmoBeetleSprite/RedAmmoBeetleSprite.yy",},"order":2,},

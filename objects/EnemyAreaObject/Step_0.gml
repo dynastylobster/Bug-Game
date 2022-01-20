@@ -10,3 +10,16 @@ if !place_meeting(x,y,EnemyParentObject) {
 		
 		}
 	}
+	
+if place_meeting(x,y,EnemyParentObject) and place_meeting(x,y,PlayerObject) {
+	with(PlayerObject) {
+		while instance_place(x,y,EnemyOnlyBlockObject) {
+		var EnemyWall = instance_place(x,y,EnemyOnlyBlockObject)
+		if EnemyWall.x < x then x++
+		if EnemyWall.y < y then y++
+		if EnemyWall.x > x then x--
+		if EnemyWall.y > y then y--
+			}
+		}
+	global.battle = true;
+	} else global.battle = false;
