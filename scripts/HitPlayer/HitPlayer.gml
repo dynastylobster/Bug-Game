@@ -3,7 +3,7 @@
 function HitPlayer(){
 	if instance_exists(PlayerObject) {
 	with(PlayerObject) {
-	if HP > 0 and Hit = false {
+	if HP > 0 and Hit = false and cant_hurt = false {
 		if !instance_exists(PlayerSheildObject) then HP -= 1;
 		if instance_exists(PlayerSheildObject) then with(PlayerSheildObject) {instance_destroy();}
 		sprite_index = PlayerHitSprite

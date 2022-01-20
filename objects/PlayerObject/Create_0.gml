@@ -12,6 +12,7 @@ AddAngle = 0;
 Carrying = noone;
 
 TryingToMove = false;
+cant_hurt = false;
 
 x_speed = 0;
 y_speed = 0;
