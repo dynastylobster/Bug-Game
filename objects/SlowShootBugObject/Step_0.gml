@@ -4,9 +4,8 @@ event_inherited();
 if hit = false {
 	
 if alarm[0] = 30 image_index = 1;
-if alarm[0] > 100 image_index = 2;
-if alarm[0] > 30 and alarm[0] <=100 then image_index = 0;
-
+if alarm[0] > 30 and alarm[0] <=75 then image_index = 0;
+if alarm[0] > 60 image_index = 2;
 }
 
 if instance_exists(PlayerObject) {

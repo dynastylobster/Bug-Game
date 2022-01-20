@@ -13,4 +13,4 @@ instance_create_layer(x,y,layer,ShootBugBulletObject);
 }
 
 }
-alarm[0] = 120;
+alarm[0] = 75;

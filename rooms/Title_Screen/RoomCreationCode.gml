@@ -1,2 +1,2 @@
 global.on = true;
-global.music = noone;
+global.music = SoundTitleMusic;
