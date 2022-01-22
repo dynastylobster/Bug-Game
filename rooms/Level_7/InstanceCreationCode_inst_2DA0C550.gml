@@ -1,0 +1,5 @@
+text[0]="Honestly, Idk how to admit this, so im just going to"
+text[1]="say it."
+text[2]=""
+text[3]=""
+text[4]="Beans."

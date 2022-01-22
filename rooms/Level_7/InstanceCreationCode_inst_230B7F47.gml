@@ -1,0 +1,5 @@
+text[0]="The Orb is located in a volcanic area, you'll know it"
+text[1]="when you see it."
+text[2]="On another note, These bouncy yellow blobs are"
+text[3]="pretty."
+text[4]=""

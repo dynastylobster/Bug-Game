@@ -86,6 +86,7 @@
     {"id":{"name":"ExplodeSprite","path":"sprites/ExplodeSprite/ExplodeSprite.yy",},"order":5,},
     {"id":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},"order":6,},
     {"id":{"name":"OffBlockObject","path":"objects/OffBlockObject/OffBlockObject.yy",},"order":2,},
+    {"id":{"name":"Level_7","path":"rooms/Level_7/Level_7.yy",},"order":8,},
     {"id":{"name":"ShootBugSprite","path":"sprites/ShootBugSprite/ShootBugSprite.yy",},"order":1,},
     {"id":{"name":"SparkleParticleSprite","path":"sprites/SparkleParticleSprite/SparkleParticleSprite.yy",},"order":14,},
     {"id":{"name":"ShootBugRedSprite","path":"sprites/ShootBugRedSprite/ShootBugRedSprite.yy",},"order":9,},
@@ -175,6 +176,7 @@
     {"roomId":{"name":"Level_5","path":"rooms/Level_5/Level_5.yy",},},
     {"roomId":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"roomId":{"name":"Level_7","path":"rooms/Level_7/Level_7.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
