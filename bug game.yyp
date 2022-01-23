@@ -75,6 +75,7 @@
     {"id":{"name":"ParticleBoom","path":"scripts/ParticleBoom/ParticleBoom.yy",},"order":0,},
     {"id":{"name":"TurnBugChillSprite","path":"sprites/TurnBugChillSprite/TurnBugChillSprite.yy",},"order":5,},
     {"id":{"name":"GreenAmmoBeetleCollectObject","path":"objects/GreenAmmoBeetleCollectObject/GreenAmmoBeetleCollectObject.yy",},"order":5,},
+    {"id":{"name":"BrickBackgroundSprite","path":"sprites/BrickBackgroundSprite/BrickBackgroundSprite.yy",},"order":3,},
     {"id":{"name":"AmmoBeetleDirectorSprite","path":"sprites/AmmoBeetleDirectorSprite/AmmoBeetleDirectorSprite.yy",},"order":0,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"Title_Screen","path":"rooms/Title_Screen/Title_Screen.yy",},"order":7,},
