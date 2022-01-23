@@ -132,6 +132,7 @@
     {"id":{"name":"PushBugSprite","path":"sprites/PushBugSprite/PushBugSprite.yy",},"order":16,},
     {"id":{"name":"AngerBugObject","path":"objects/AngerBugObject/AngerBugObject.yy",},"order":5,},
     {"id":{"name":"MenuButtonSprite","path":"sprites/MenuButtonSprite/MenuButtonSprite.yy",},"order":0,},
+    {"id":{"name":"Level_8","path":"rooms/Level_8/Level_8.yy",},"order":9,},
     {"id":{"name":"AmmoBeetleCollectObject","path":"objects/AmmoBeetleCollectObject/AmmoBeetleCollectObject.yy",},"order":0,},
     {"id":{"name":"PineAppleItemObject","path":"objects/PineAppleItemObject/PineAppleItemObject.yy",},"order":4,},
     {"id":{"name":"SideBugSprite","path":"sprites/SideBugSprite/SideBugSprite.yy",},"order":0,},
@@ -180,6 +181,7 @@
     {"roomId":{"name":"Level_6","path":"rooms/Level_6/Level_6.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Level_7","path":"rooms/Level_7/Level_7.yy",},},
+    {"roomId":{"name":"Level_8","path":"rooms/Level_8/Level_8.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

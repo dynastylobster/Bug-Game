@@ -1,5 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-start_x = x;
-start_y = y;
-angle = 0;
+draw_sprite_ext(sprite_index,image_index,x,y,1,1,angle,c_white,1);

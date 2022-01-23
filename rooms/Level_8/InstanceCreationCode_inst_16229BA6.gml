@@ -1,0 +1,5 @@
+text[0] = "What is the purpose of the orb?"
+text[1] = "Who put it there?"
+text[2] = ""
+text[3] = ""
+text[4] = "I have no idea I'm just bored."
