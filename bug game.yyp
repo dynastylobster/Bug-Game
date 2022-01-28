@@ -8,6 +8,7 @@
     {"id":{"name":"GreenAmmoBeetleSpawner","path":"objects/GreenAmmoBeetleSpawner/GreenAmmoBeetleSpawner.yy",},"order":10,},
     {"id":{"name":"DarkWaterTileset","path":"tilesets/DarkWaterTileset/DarkWaterTileset.yy",},"order":7,},
     {"id":{"name":"SoundTitleMusic","path":"sounds/SoundTitleMusic/SoundTitleMusic.yy",},"order":15,},
+    {"id":{"name":"Sprite69","path":"sprites/Sprite69/Sprite69.yy",},"order":30,},
     {"id":{"name":"OnBlockSprite","path":"sprites/OnBlockSprite/OnBlockSprite.yy",},"order":8,},
     {"id":{"name":"PushBugObject","path":"objects/PushBugObject/PushBugObject.yy",},"order":19,},
     {"id":{"name":"DirtTileSprite","path":"sprites/DirtTileSprite/DirtTileSprite.yy",},"order":0,},
