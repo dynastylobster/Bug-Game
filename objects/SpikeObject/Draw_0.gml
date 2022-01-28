@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
+if done = true {
 if dear_librals = true {
 	depth = 99;
 	if instance_exists(PlayerObject) {
@@ -9,3 +10,4 @@ if dear_librals = true {
 		}
 			}
 		}
+}
