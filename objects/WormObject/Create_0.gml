@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+bodyframe = 1;
 event_inherited()
 direction = image_angle;
 start_x = x;
@@ -18,12 +19,7 @@ if !place_meeting(x,y,WormStopObject) {
 	
 if !instance_place(x,y,WormHurtObject) {
 instance_create_layer(x,y,layer,WormHurtObject);
-} else {
-instance_place(x,y,WormHurtObject).x = x
-instance_place(x,y,WormHurtObject).y = y
-instance_place(x,y,WormHurtObject).direction = direction
-instance_place(x,y,WormHurtObject).image_xscale = -50;
 	}
-	
 fast_speed = 3;
 slow_speed = 1;
+alarm[0] = 8;

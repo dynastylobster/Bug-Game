@@ -51,6 +51,7 @@
     {"id":{"name":"PlayerHitSprite","path":"sprites/PlayerHitSprite/PlayerHitSprite.yy",},"order":2,},
     {"id":{"name":"OnOffSound","path":"sounds/OnOffSound/OnOffSound.yy",},"order":8,},
     {"id":{"name":"AmmoBeetleThrowObject","path":"objects/AmmoBeetleThrowObject/AmmoBeetleThrowObject.yy",},"order":1,},
+    {"id":{"name":"WormHurtSprite","path":"sprites/WormHurtSprite/WormHurtSprite.yy",},"order":11,},
     {"id":{"name":"CrateObject","path":"objects/CrateObject/CrateObject.yy",},"order":0,},
     {"id":{"name":"KeyBugThrowObject","path":"objects/KeyBugThrowObject/KeyBugThrowObject.yy",},"order":6,},
     {"id":{"name":"SparkleParticleBoom","path":"scripts/SparkleParticleBoom/SparkleParticleBoom.yy",},"order":2,},

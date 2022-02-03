@@ -18,12 +18,3 @@ if onscreen and !global.paused {
 	x = start_x;
 	y = start_y;
 	}
-	
-	if !instance_place(x,y,WormHurtObject) {
-instance_create_layer(x,y,layer,WormHurtObject);
-} else {
-instance_place(x,y,WormHurtObject).x = x
-instance_place(x,y,WormHurtObject).y = y
-instance_place(x,y,WormHurtObject).direction = direction
-instance_place(x,y,WormHurtObject).image_xscale = -50;
-	}

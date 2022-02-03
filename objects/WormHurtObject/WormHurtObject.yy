@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "WormSprite",
-    "path": "sprites/WormSprite/WormSprite.yy",
+    "name": "WormHurtSprite",
+    "path": "sprites/WormHurtSprite/WormHurtSprite.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
