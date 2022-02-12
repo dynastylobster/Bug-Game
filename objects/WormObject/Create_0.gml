@@ -10,14 +10,8 @@ facing = -1;
 if !place_meeting(x,y,WormStopObject) {
 	var spot_x;
 	var spot_y;
-	if direction = 0 then {spot_x = x+22; spot_y = y}
-	if direction = 180 then {spot_x = x-22; spot_y = y}
-	if direction = 90 then {spot_y = y-22; spot_x = x}
-	if direction = 270 then {spot_y = y+22; spot_x = x}
-	if direction = 45 then {spot_x = x+22; spot_y = y-22}
-	if direction = 135 then {spot_x = x-22; spot_y = y-22}
-	if direction = 225 then {spot_x = x-22; spot_y = y+22}
-	if direction = 315 then {spot_x = x+22; spot_y = y+22}
+	spot_x = x+lengthdir_x(24,direction);
+	spot_y = y+lengthdir_y(24,direction);
 	instance_create_layer(spot_x,spot_y,layer,WormStopObject);
 	}
 	

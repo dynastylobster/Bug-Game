@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "WormSprite",
-    "path": "sprites/WormSprite/WormSprite.yy",
+    "name": "WormStopSprite",
+    "path": "sprites/WormStopSprite/WormStopSprite.yy",
   },
   "solid": false,
   "visible": false,
