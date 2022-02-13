@@ -15,6 +15,13 @@ if instance_exists(PlayerObject) {
 		}
 	}
 }
+
+if instance_exists(BossObject) {
+	draw_set_color(c_black)
+	draw_rectangle(3,25,104,40,false)
+	draw_set_color(c_white)
+	draw_sprite_ext(BossHealthSprite,1,4,25,(BossObject.hp)*10,1,0,c_white,1);
+	}
 	
 if global.paused {
 	draw_set_color(c_black);
